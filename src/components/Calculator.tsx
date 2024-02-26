@@ -145,7 +145,7 @@ const Calculator: FC = () => {
                     />
                     {error.year && <p className="errorMsg">{error.year}</p>}
                 </div>
-                <button className="submitBtn" type="submit">
+                <button aria-label="Submit button" className="submitBtn" type="submit">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="46"
